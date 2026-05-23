@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Y.B Web Developing | Digital Engineering & Social Brand</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        h1, h2, h3, .font-heading {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .neon-glow-amber {
+            filter: blur(120px);
+            background: radial-gradient(circle, rgba(245, 158, 11, 0.15) 0%, transparent 70%);
+        }
+        .neon-glow-blue {
+            filter: blur(120px);
+            background: radial-gradient(circle, rgba(14, 165, 233, 0.1) 0%, transparent 70%);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-amber-500 selection:text-slate-950">
+
+    <div class="absolute top-0 right-0 w-[500px] h-[500px] neon-glow-amber pointer-events-none z-0"></div>
+    <div class="absolute top-[1200px] left-0 w-[600px] h-[600px] neon-glow-blue pointer-events-none z-0"></div>
+    <div class="absolute top-[2800px] right-0 w-[500px] h-[500px] neon-glow-amber pointer-events-none z-0"></div>
+
+    <header class="fixed top-0 left-0 w-full z-50 bg-slate-950/70 backdrop-blur-xl border-b border-slate-900/80">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <a href="#" class="flex flex-col">
+                <span class="text-xl font-black tracking-wider text-white">THE Y.B</span>
+                <span class="text-[10px] font-bold tracking-[0.25em] text-amber-500 uppercase">Web Developing</span>
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-10 text-xs font-bold uppercase tracking-widest text-slate-400">
+                <a href="#solutions" class="hover:text-amber-400 transition-colors">Solutions</a>
+                <a href="#instagram" class="hover:text-amber-400 transition-colors flex items-center gap-1.5">
+                    <i class="fa-brands fa-instagram text-sm"></i> @y.b.developping.web
+                </a>
+                <a href="#estimateur" class="hover:text-amber-400 transition-colors">Calculer mon Budget</a>
+                <a href="#contact" class="px-6 py-3 rounded-lg bg-amber-500 text-slate-950 font-black hover:bg-amber-400 transition-all shadow-lg shadow-amber-500/10">Lancer un projet</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="relative pt-40 pb-24 md:pt-52 md:pb-36 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="max-w-4xl">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold bg-amber-500/10 text-amber-400 border border-amber-500/20 mb-8 uppercase tracking-widest">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    Solutions Web Professionnelles & Connectées
+                </div>
+                <h1 class="text-5xl sm:text-6xl md:text-8xl font-black tracking-tight text-white leading-none mb-8">
+                    L'architecture digitale des <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-orange-500 to-amber-500">marques ambitieuses</span>.
+                </h1>
+                <p class="text-lg md:text-xl text-slate-400 mb-12 leading-relaxed max-w-3xl">
+                    Nous concevons des plateformes web sur-mesure d'une rapidité redoutable, combinant l'ingénierie backend en Python avec des designs avant-gardistes pour propulser votre croissance.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#estimateur" class="px-8 py-4 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 font-bold hover:opacity-95 transition-all text-center">
+                        <i class="fa-solid fa-calculator mr-2"></i> Estimer mon budget en 2min
+                    </a>
+                    <a href="#instagram" target="_blank" class="px-8 py-4 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 font-medium transition-all text-center flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-instagram text-lg text-pink-500"></i> Rejoindre la communauté IG
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 border-y border-slate-900/60 bg-slate-950/40 backdrop-blur-sm">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-3xl md:text-5xl font-extrabold text-white">99.9%</div>
+                    <div class="text-xs text-slate-500 uppercase tracking-widest mt-2">Disponibilité Applicative (SLA)</div>
+                </div>
+                <div>
+                    <div class="text-3xl md:text-5xl font-extrabold text-amber-400">&lt; 150ms</div>
+                    <div class="text-xs text-slate-500 uppercase tracking-widest mt-2">Temps de réponse serveur</div>
+                </div>
+                <div>
+                    <div class="text-3xl md:text-5xl font-extrabold text-white">100%</div>
+                    <div class="text-xs text-slate-500 uppercase tracking-widest mt-2">Développements Sur-mesure</div>
+                </div>
+                <div>
+                    <div class="text-3xl md:text-5xl font-extrabold text-amber-400">24/7</div>
+                    <div class="text-xs text-slate-500 uppercase tracking-widest mt-2">Surveillance & Maintenance</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutions" class="py-24 bg-slate-950">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-3xl mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-4">Ingénierie de pointe</h2>
+                <p class="text-slate-400">Nous construisons des systèmes sur-mesure pour rationaliser vos opérations de vente et d'acquisition de leads.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-2xl bg-slate-900/30 border border-slate-900 hover:border-amber-500/20 transition-all group">
+                    <div class="w-12 h-12 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-400 mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-laptop-code text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Vitrines Digitales Haute-Couture</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Des plateformes de conversion uniques adaptées à vos campagnes publicitaires, construites à l'aide d'animations élégantes et d'une sémantique propre.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2">
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i> Temps de chargement inférieur à 1s</li>
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i> SEO technique optimisé de base</li>
+                    </ul>
+                </div>
+
+                <div class="p-8 rounded-2xl bg-slate-900/30 border border-slate-900 hover:border-amber-500/20 transition-all group">
+                    <div class="w-12 h-12 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-400 mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-circle-nodes text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Logiciels Métiers & ERP</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Automatisation complète de vos processus : de la gestion des clients au suivi des facturations grâce à des tableaux de bord dynamiques et complets.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2">
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i> Connexion API tierces simplifiée</li>
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i> Cryptage complet de vos données</li>
+                    </ul>
+                </div>
+
+                <div class="p-8 rounded-2xl bg-slate-900/30 border border-slate-900 hover:border-amber-500/20 transition-all group">
+                    <div class="w-12 h-12 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-400 mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-server text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Infrastructures Server (Python)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Des bases de données robustes capables de traiter vos données complexes sans latence. Sécurisé, performant et évolutif pour votre futur développement.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2">
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i> Architecture PostgreSQL / MySQL</li>
+                        <li><i class="fa-solid fa-check text-emerald-500 mr-2"></i> Scalabilité horizontale assistée</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="instagram" class="py-24 bg-slate-900/20 border-t border-slate-900/80">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div class="max-w-2xl">
+                    <span class="text-xs font-bold text-amber-500 tracking-[0.2em] uppercase">Behind The Scenes on Instagram</span>
+                    <h2 class="text-3xl md:text-5xl font-bold text-white mt-3">Rejoignez @y.b.developping.web</h2>
+                    <p class="text-slate-400 mt-4">Nous partageons notre quotidien de développement, des astuces d'architecture backend en Python, des revues de code UX et les coulisses de nos plus belles applications.</p>
+                </div>
+                <div>
+                    <a href="https://instagram.com/y.b.developping.web" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-pink-500 to-amber-500 hover:opacity-95 transition-all text-sm font-bold text-white shadow-lg shadow-pink-500/10">
+                        <i class="fa-brands fa-instagram text-lg"></i> S'abonner sur Instagram
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-800/80 group">
+                    <div class="aspect-square bg-slate-950 flex flex-col justify-between p-6 relative">
+                        <div class="absolute inset-0 opacity-15 font-mono text-[9px] text-amber-400 p-4 select-none pointer-events-none overflow-hidden leading-tight">
+                            def optimize_db(conn):<br>
+                            &nbsp;&nbsp;cursor = conn.cursor()<br>
+                            &nbsp;&nbsp;cursor.execute("CREATE INDEX idx_user...")<br>
+                            &nbsp;&nbsp;return "Optimized!"
+                        </div>
+                        <div class="flex items-center justify-between z-10">
+                            <span class="px-2.5 py-1 rounded bg-amber-500/10 border border-amber-500/20 text-[10px] font-bold text-amber-400 uppercase tracking-widest">Backend Tip</span>
+                            <i class="fa-solid fa-code text-slate-700"></i>
+                        </div>
+                        <div class="z-10 mt-12">
+                            <h4 class="font-bold text-lg text-white mb-2 leading-snug">Comment booster ses requêtes SQL en Python ?</h4>
+                            <p class="text-xs text-slate-400 line-clamp-2">L'utilisation des index et de Flask-SQLAlchemy pour réduire le temps de chargement de 80%...</p>
+                        </div>
+                        <div class="flex items-center justify-between pt-4 border-t border-slate-800/60 z-10 mt-4">
+                            <span class="text-[10px] text-slate-500 font-bold tracking-wider">@y.b.developping.web</span>
+                            <div class="flex gap-3 text-slate-400 text-xs">
+                                <span><i class="fa-regular fa-heart text-pink-500 mr-1"></i> 142</span>
+                                <span><i class="fa-regular fa-comment mr-1"></i> 18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-800/80 group">
+                    <div class="aspect-square bg-slate-950 flex flex-col justify-between p-6 relative">
+                        <div class="absolute inset-0 opacity-10 bg-gradient-to-tr from-pink-500 to-purple-500 p-4 select-none pointer-events-none"></div>
+                        <div class="flex items-center justify-between z-10">
+                            <span class="px-2.5 py-1 rounded bg-purple-500/10 border border-purple-500/20 text-[10px] font-bold text-purple-400 uppercase tracking-widest">UI/UX Showcase</span>
+                            <i class="fa-solid fa-wand-magic-sparkles text-slate-700"></i>
+                        </div>
+                        <div class="z-10 mt-12">
+                            <h4 class="font-bold text-lg text-white mb-2 leading-snug">Design de luxe : Pourquoi l'épuration fait vendre ?</h4>
+                            <p class="text-xs text-slate-400 line-clamp-2">Analyse de notre dernier tableau de bord d'entreprise basé sur le "glassmorphism"...</p>
+                        </div>
+                        <div class="flex items-center justify-between pt-4 border-t border-slate-800/60 z-10 mt-4">
+                            <span class="text-[10px] text-slate-500 font-bold tracking-wider">@y.b.developping.web</span>
+                            <div class="flex gap-3 text-slate-400 text-xs">
+                                <span><i class="fa-regular fa-heart text-pink-500 mr-1"></i> 204</span>
+                                <span><i class="fa-regular fa-comment mr-1"></i> 32</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-800/80 group">
+                    <div class="aspect-square bg-slate-950 flex flex-col justify-between p-6 relative">
+                        <div class="absolute inset-0 opacity-15 font-mono text-[9px] text-emerald-400 p-4 select-none pointer-events-none overflow-hidden leading-tight">
+                            @app.route('/api/v1/data')<br>
+                            def get_data():<br>
+                            &nbsp;&nbsp;return "secure_200"
+                        </div>
+                        <div class="flex items-center justify-between z-10">
+                            <span class="px-2.5 py-1 rounded bg-emerald-500/10 border border-emerald-500/20 text-[10px] font-bold text-emerald-400 uppercase tracking-widest">Flask Service</span>
+                            <i class="fa-solid fa-shield-halved text-slate-700"></i>
+                        </div>
+                        <div class="z-10 mt-12">
+                            <h4 class="font-bold text-lg text-white mb-2 leading-snug">Sécuriser ses APIs d'entreprise en 5 étapes</h4>
+                            <p class="text-xs text-slate-400 line-clamp-2">Tutoriel complet sur la gestion des tokens et l'encryptage AES de bout en bout...</p>
+                        </div>
+                        <div class="flex items-center justify-between pt-4 border-t border-slate-800/60 z-10 mt-4">
+                            <span class="text-[10px] text-slate-500 font-bold tracking-wider">@y.b.developping.web</span>
+                            <div class="flex gap-3 text-slate-400 text-xs">
+                                <span><i class="fa-regular fa-heart text-pink-500 mr-1"></i> 189</span>
+                                <span><i class="fa-regular fa-comment mr-1"></i> 24</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative rounded-2xl overflow-hidden bg-gradient-to-br from-slate-900 to-slate-950 border border-amber-500/20 p-6 flex flex-col justify-between">
+                    <div>
+                        <span class="px-2.5 py-1 rounded bg-amber-500/10 border border-amber-500/20 text-[10px] font-bold text-amber-400 uppercase tracking-widest">Let's Collaborate</span>
+                        <h4 class="font-bold text-xl text-white mt-6 mb-3">Besoin d'une solution ?</h4>
+                        <p class="text-xs text-slate-400 leading-relaxed">Nous documentons chaque projet livré à nos clients directement en story. Votre marque pourrait être la prochaine.</p>
+                    </div>
+                    <div>
+                        <a href="#contact" class="inline-flex items-center gap-1.5 text-xs font-bold text-amber-400 hover:text-white transition-colors mt-4">
+                            Démarrer maintenant <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="estimateur" class="py-24 border-t border-slate-900 bg-slate-950/40">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-xs font-bold text-amber-500 tracking-[0.2em] uppercase">Estimation en temps réel</span>
+                <h2 class="text-3xl md:text-5xl font-bold text-white mt-3">Configurez votre Projet</h2>
+                <p class="text-slate-400 mt-4">Sélectionnez les caractéristiques techniques de votre application pour obtenir un chiffrage indicatif de budget et de livraison.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
+                <div class="lg:col-span-7 bg-slate-900/40 border border-slate-900 p-8 rounded-3xl flex flex-col justify-between">
+                    <div class="space-y-8">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-widest text-slate-400 mb-3">Type d'application web</label>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <label class="border border-slate-800 rounded-xl p-4 flex items-center gap-3 cursor-pointer hover:border-amber-500/40 transition-colors">
+                                    <input type="radio" name="project_type" value="vitrine" checked class="accent-amber-500" onclick="calculateEstimates()">
+                                    <div>
+                                        <div class="text-sm font-bold text-white">Site Vitrine & SEO</div>
+                                        <div class="text-[10px] text-slate-500">Optimisé acquisition</div>
+                                    </div>
+                                </label>
+                                <label class="border border-slate-800 rounded-xl p-4 flex items-center gap-3 cursor-pointer hover:border-amber-500/40 transition-colors">
+                                    <input type="radio" name="project_type" value="app" class="accent-amber-500" onclick="calculateEstimates()">
+                                    <div>
+                                        <div class="text-sm font-bold text-white">Application Métier / ERP</div>
+                                        <div class="text-[10px] text-slate-500">Tableau de bord de gestion</div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-widest text-slate-400 mb-3">Fonctionnalités Backend & Données</label>
+                            <div class="space-y-3">
+                                <label class="flex items-center justify-between border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-amber-500/40 transition-all">
+                                    <div class="flex items-center gap-3">
+                                        <input type="checkbox" id="feature_db" class="accent-amber-500 h-4 w-4 rounded" onclick="calculateEstimates()">
+                                        <span class="text-sm text-slate-200">Base de données relationnelle sécurisée (Python/SQL)</span>
+                                    </div>
+                                </label>
+                                <label class="flex items-center justify-between border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-amber-500/40 transition-all">
+                                    <div class="flex items-center gap-3">
+                                        <input type="checkbox" id="feature_api" class="accent-amber-500 h-4 w-4 rounded" onclick="calculateEstimates()">
+                                        <span class="text-sm text-slate-200">Intégration d'APIs tierces (Paiements, CRM...)</span>
+                                    </div>
+                                </label>
+                                <label class="flex items-center justify-between border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-amber-500/40 transition-all">
+                                    <div class="flex items-center gap-3">
+                                        <input type="checkbox" id="feature_auth" class="accent-amber-500 h-4 w-4 rounded" onclick="calculateEstimates()">
+                                        <span class="text-sm text-slate-200">Système d'authentification des utilisateurs (MFA)</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5 bg-gradient-to-br from-slate-900 to-slate-950 border border-slate-800/80 p-8 rounded-3xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-6">Budget Estimatif</h3>
+                        <div class="mb-8">
+                            <span class="text-xs text-slate-500 uppercase tracking-widest">À partir de :</span>
+                            <div class="text-4xl md:text-5xl font-black text-amber-400 mt-2" id="estimated_price">950 €</div>
+                            <p class="text-[10px] text-slate-500 mt-2">*Estimation indicative basée sur la complexité technique choisie.</p>
+                        </div>
+                        <div class="border-t border-slate-800/60 pt-6 mb-8">
+                            <span class="text-xs text-slate-500 uppercase tracking-widest">Délai estimé de livraison :</span>
+                            <div class="text-lg font-bold text-white mt-1" id="estimated_time">10 à 15 jours ouvrés</div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="w-full py-4 rounded-xl bg-amber-500 text-slate-950 font-black text-center hover:bg-amber-400 transition-all shadow-xl shadow-amber-500/5">
+                        Valider ce cahier des charges
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-2xl mx-auto text-center mb-16">
+                <span class="text-xs font-bold text-amber-500 tracking-[0.2em] uppercase">Submit Your Brief</span>
+                <h2 class="text-3xl md:text-5xl font-bold text-white mt-3">Planifier votre architecture</h2>
+                <p class="text-slate-400 mt-4">Complétez le formulaire ci-dessous. Notre équipe analysera vos critères de développement.</p>
+            </div>
+
+            <div class="max-w-2xl mx-auto p-8 rounded-3xl bg-slate-900/40 border border-slate-800">
+
+                <div id="notification-success" class="hidden p-4 mb-6 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm flex items-center gap-3 transition-all duration-300">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Votre demande de projet a été transmise avec succès ! Nous vous recontactons sous 24h.</span>
+                </div>
+
+                <form id="project-form" onsubmit="handleFormSubmit(event)" class="space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-widest text-slate-400 mb-2">Structure ou Entreprise</label>
+                            <input type="text" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 transition-colors">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-widest text-slate-400 mb-2">Responsable de projet</label>
+                            <input type="text" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 transition-colors">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-widest text-slate-400 mb-2">Email Professionnel</label>
+                            <input type="email" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 transition-colors">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-widest text-slate-400 mb-2">Architecture visée</label>
+                            <select class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 transition-colors appearance-none">
+                                <option value="Site Vitrine">Site Vitrine / Acquisition</option>
+                                <option value="Application Métier">Application de Gestion (ERP)</option>
+                                <option value="Architecture API">Infrastructure Backend & API</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-widest text-slate-400 mb-2">Description des fonctionnalités attendues</label>
+                        <textarea rows="5" required placeholder="Décrivez votre besoin d'automatisations ou d'interfaces..." class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder:text-slate-700 focus:outline-none focus:border-amber-500 transition-colors resize-none"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 font-bold tracking-widest uppercase text-xs hover:opacity-95 transition-all cursor-pointer">
+                        Soumettre mon cahier des charges
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-16 border-t border-slate-900 bg-slate-950 text-xs text-slate-600">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="text-center md:text-left">
+                <p class="font-bold text-white text-sm">THE Y.B WEB DEVELOPING</p>
+                <p class="mt-2">&copy; 2026. Tous droits réservés.</p>
+            </div>
+            <div class="flex space-x-6 text-sm">
+                <a href="https://instagram.com/y.b.developping.web" target="_blank" class="hover:text-amber-400 transition-colors flex items-center gap-1 text-xs"><i class="fa-brands fa-instagram"></i> y.b.developping.web</a>
+                <a href="#" class="hover:text-amber-400 transition-colors"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="#" class="hover:text-amber-400 transition-colors"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function calculateEstimates() {
+            const projectType = document.querySelector('input[name="project_type"]:checked').value;
+            const hasDB = document.getElementById('feature_db').checked;
+            const hasAPI = document.getElementById('feature_api').checked;
+            const hasAuth = document.getElementById('feature_auth').checked;
+
+            let basePrice = 0;
+            let deliveryDays = 0;
+
+            if (projectType === 'vitrine') {
+                basePrice = 950;
+                deliveryDays = 10;
+            } else if (projectType === 'app') {
+                basePrice = 2200;
+                deliveryDays = 20;
+            }
+
+            if (hasDB) { basePrice += 450; deliveryDays += 4; }
+            if (hasAPI) { basePrice += 350; deliveryDays += 3; }
+            if (hasAuth) { basePrice += 300; deliveryDays += 2; }
+
+            document.getElementById('estimated_price').innerText = basePrice + " €";
+            document.getElementById('estimated_time').innerText = `${deliveryDays} à ${deliveryDays + 5} jours ouvrés`;
+        }
+
+        function handleFormSubmit(event) {
+            event.preventDefault(); // Empêche le rechargement brutal de la page
+
+            // Affiche la notification de succès
+            const notification = document.getElementById('notification-success');
+            notification.classList.remove('hidden');
+
+            // Réinitialise le formulaire
+            document.getElementById('project-form').reset();
+
+            // Scroll en douceur vers la notification
+            notification.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+
+        window.onload = function() {
+            calculateEstimates();
+        };
+    </script>
+</body>
+</html>
